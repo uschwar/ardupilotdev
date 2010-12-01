@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="ArduPilotConfigTool">
+</Property><Property Name="Solution File" Value="C:\Users\Jordi PRO\Desktop\desmare Confiq\confiqtool\ArduPilotConfigTool.sln">
+</Property><Property Name="User Options File" Value="C:\Users\Jordi PRO\Desktop\desmare Confiq\confiqtool\ArduPilotConfigTool.suo">
+</Property><Property Name="Date" Value="Monday, September 14, 2009">
+</Property><Property Name="Time" Value="17:04 PM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="ArduPilotConfigTool.sln" Description="File successfully backed up as C:\Users\Jordi PRO\Desktop\desmare Confiq\confiqtool\Backup\ArduPilotConfigTool.sln">
+</Event><Event ErrorLevel="0" Project="" Source="ArduPilotConfigTool.suo" Description="File successfully backed up as C:\Users\Jordi PRO\Desktop\desmare Confiq\confiqtool\Backup\ArduPilotConfigTool.suo">
+</Event><Event ErrorLevel="0" Project="ArduPilotConfigTool" Source="ArduPilotConfigTool.csproj" Description="Project file successfully backed up as C:\Users\Jordi PRO\Desktop\desmare Confiq\confiqtool\Backup\ArduPilotConfigTool.csproj">
+</Event><Event ErrorLevel="0" Project="ArduPilotConfigTool" Source="ArduPilotConfigTool.csproj.user" Description="Project user file successfully backed up as C:\Users\Jordi PRO\Desktop\desmare Confiq\confiqtool\Backup\ArduPilotConfigTool.csproj.user">
+</Event><Event ErrorLevel="0" Project="ArduPilotConfigTool" Source="Form1.cs" Description="File successfully backed up as C:\Users\Jordi PRO\Desktop\desmare Confiq\confiqtool\Backup\Form1.cs">
+</Event><Event ErrorLevel="0" Project="ArduPilotConfigTool" Source="Form1.Designer.cs" Description="File successfully backed up as C:\Users\Jordi PRO\Desktop\desmare Confiq\confiqtool\Backup\Form1.Designer.cs">
+</Event><Event ErrorLevel="0" Project="ArduPilotConfigTool" Source="ModifyRegistry.cs" Description="File successfully backed up as C:\Users\Jordi PRO\Desktop\desmare Confiq\confiqtool\Backup\ModifyRegistry.cs">
+</Event><Event ErrorLevel="0" Project="ArduPilotConfigTool" Source="options_form.cs" Description="File successfully backed up as C:\Users\Jordi PRO\Desktop\desmare Confiq\confiqtool\Backup\options_form.cs">
+</Event><Event ErrorLevel="0" Project="ArduPilotConfigTool" Source="options_form.Designer.cs" Description="File successfully backed up as C:\Users\Jordi PRO\Desktop\desmare Confiq\confiqtool\Backup\options_form.Designer.cs">
+</Event><Event ErrorLevel="0" Project="ArduPilotConfigTool" Source="Program.cs" Description="File successfully backed up as C:\Users\Jordi PRO\Desktop\desmare Confiq\confiqtool\Backup\Program.cs">
+</Event><Event ErrorLevel="0" Project="ArduPilotConfigTool" Source="Properties\AssemblyInfo.cs" Description="File successfully backed up as C:\Users\Jordi PRO\Desktop\desmare Confiq\confiqtool\Backup\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="ArduPilotConfigTool" Source="Properties\Resources.Designer.cs" Description="File successfully backed up as C:\Users\Jordi PRO\Desktop\desmare Confiq\confiqtool\Backup\Properties\Resources.Designer.cs">
+</Event><Event ErrorLevel="0" Project="ArduPilotConfigTool" Source="Properties\Settings.Designer.cs" Description="File successfully backed up as C:\Users\Jordi PRO\Desktop\desmare Confiq\confiqtool\Backup\Properties\Settings.Designer.cs">
+</Event><Event ErrorLevel="0" Project="ArduPilotConfigTool" Source="ClassDiagram1.cd" Description="File successfully backed up as C:\Users\Jordi PRO\Desktop\desmare Confiq\confiqtool\Backup\ClassDiagram1.cd">
+</Event><Event ErrorLevel="0" Project="ArduPilotConfigTool" Source="Properties\Settings.settings" Description="File successfully backed up as C:\Users\Jordi PRO\Desktop\desmare Confiq\confiqtool\Backup\Properties\Settings.settings">
+</Event><Event ErrorLevel="0" Project="ArduPilotConfigTool" Source="airplane.ico" Description="File successfully backed up as C:\Users\Jordi PRO\Desktop\desmare Confiq\confiqtool\Backup\airplane.ico">
+</Event><Event ErrorLevel="0" Project="ArduPilotConfigTool" Source="Form1.resx" Description="File successfully backed up as C:\Users\Jordi PRO\Desktop\desmare Confiq\confiqtool\Backup\Form1.resx">
+</Event><Event ErrorLevel="0" Project="ArduPilotConfigTool" Source="options_form.resx" Description="File successfully backed up as C:\Users\Jordi PRO\Desktop\desmare Confiq\confiqtool\Backup\options_form.resx">
+</Event><Event ErrorLevel="0" Project="ArduPilotConfigTool" Source="Properties\Resources.resx" Description="File successfully backed up as C:\Users\Jordi PRO\Desktop\desmare Confiq\confiqtool\Backup\Properties\Resources.resx">
+</Event><Event ErrorLevel="0" Project="ArduPilotConfigTool" Source="ArduPilotConfigTool.csproj" Description="The project file does not require conversion.">
+</Event><Event ErrorLevel="3" Project="ArduPilotConfigTool" Source="ArduPilotConfigTool.csproj" Description="No Conversion Required">
+</Event><Event ErrorLevel="0" Project="" Source="ArduPilotConfigTool.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="ArduPilotConfigTool.sln" Description="Converted">
+</Event></UpgradeLog>

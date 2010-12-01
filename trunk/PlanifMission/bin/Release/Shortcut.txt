@@ -1,0 +1,1 @@
+\\upstairs\Remzibi OSD\new\ArduPilot\Config\Source\ArdupilotConfigTool\ArduPilotConfigTool\bin\Release
