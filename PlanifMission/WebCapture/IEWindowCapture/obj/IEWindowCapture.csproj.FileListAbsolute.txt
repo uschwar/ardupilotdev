@@ -1,0 +1,10 @@
+C:\Projects\Remzibi OSD\New\ArduPilot\Config\Source\ArdupilotConfigTool\ArduPilotConfigTool\WebCapture\IEWindowCapture\bin\Debug\IEWindowCapture.exe
+C:\Projects\Remzibi OSD\New\ArduPilot\Config\Source\ArdupilotConfigTool\ArduPilotConfigTool\WebCapture\IEWindowCapture\bin\Debug\IEWindowCapture.pdb
+C:\Projects\Remzibi OSD\New\ArduPilot\Config\Source\ArdupilotConfigTool\ArduPilotConfigTool\WebCapture\IEWindowCapture\bin\Debug\Interop.SHDocVw.dll
+C:\Projects\Remzibi OSD\New\ArduPilot\Config\Source\ArdupilotConfigTool\ArduPilotConfigTool\WebCapture\IEWindowCapture\obj\Debug\ResolveAssemblyReference.cache
+C:\Projects\Remzibi OSD\New\ArduPilot\Config\Source\ArdupilotConfigTool\ArduPilotConfigTool\WebCapture\IEWindowCapture\obj\Debug\Interop.SHDocVw.dll
+C:\Projects\Remzibi OSD\New\ArduPilot\Config\Source\ArdupilotConfigTool\ArduPilotConfigTool\WebCapture\IEWindowCapture\obj\Debug\IEWindowCapture.csproj.ResolveComReference.cache
+C:\Projects\Remzibi OSD\New\ArduPilot\Config\Source\ArdupilotConfigTool\ArduPilotConfigTool\WebCapture\IEWindowCapture\obj\Debug\IEWindowCapture.frmMain.resources
+C:\Projects\Remzibi OSD\New\ArduPilot\Config\Source\ArdupilotConfigTool\ArduPilotConfigTool\WebCapture\IEWindowCapture\obj\Debug\IEWindowCapture.csproj.GenerateResource.Cache
+C:\Projects\Remzibi OSD\New\ArduPilot\Config\Source\ArdupilotConfigTool\ArduPilotConfigTool\WebCapture\IEWindowCapture\obj\Debug\IEWindowCapture.exe
+C:\Projects\Remzibi OSD\New\ArduPilot\Config\Source\ArdupilotConfigTool\ArduPilotConfigTool\WebCapture\IEWindowCapture\obj\Debug\IEWindowCapture.pdb
