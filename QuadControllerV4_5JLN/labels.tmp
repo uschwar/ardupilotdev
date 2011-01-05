@@ -1,0 +1,135 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.42</VERSION>
+ <DEVICE>ATmega168</DEVICE>
+ <WORKING_DIR>C:\Ardupilot\VFO\KKMulticopter\QRO v4 03012011\QuadControllerV4_5</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\Appnotes</DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Ardupilot\VFO\KKMulticopter\QRO v4 03012011\QuadControllerV4_5\QuadControllerV4_5.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:\Ardupilot\VFO\KKMulticopter\QRO v4 03012011\QuadControllerV4_5\m168def.inc</FILE>
+  <FILE>C:\Ardupilot\VFO\KKMulticopter\QRO v4 03012011\QuadControllerV4_5\1616mathlib_ram_macros_v1.asm</FILE>
+  <FILE>C:\Ardupilot\VFO\KKMulticopter\QRO v4 03012011\QuadControllerV4_5\1616mathlib_ram_v1.asm</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Ardupilot\VFO\KKMulticopter\QRO v4 03012011\QuadControllerV4_5\QuadControllerV4_5.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>C:\Ardupilot\VFO\KKMulticopter\QRO v4 03012011\QuadControllerV4_5\QuadControllerV4_5.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>C:\Ardupilot\VFO\KKMulticopter\QRO v4 03012011\QuadControllerV4_5\QuadControllerV4_5.map</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <reset><FILE>C:\Ardupilot\VFO\KKMulticopter\QRO v4 03012011\QuadControllerV4_5\QuadControllerV4_5.asm</FILE><LINE>270</LINE></reset>
+  <RxChannel2><FILE>C:\Ardupilot\VFO\KKMulticopter\QRO v4 03012011\QuadControllerV4_5\QuadControllerV4_5.asm</FILE><LINE>1056</LINE></RxChannel2>
+  <RxChannel3><FILE>C:\Ardupilot\VFO\KKMulticopter\QRO v4 03012011\QuadControllerV4_5\QuadControllerV4_5.asm</FILE><LINE>1089</LINE></RxChannel3>
+  <RxChannel4><FILE>C:\Ardupilot\VFO\KKMulticopter\QRO v4 03012011\QuadControllerV4_5\QuadControllerV4_5.asm</FILE><LINE>1122</LINE></RxChannel4>
+  <unused><FILE>C:\Ardupilot\VFO\KKMulticopter\QRO v4 03012011\QuadControllerV4_5\QuadControllerV4_5.asm</FILE><LINE>268</LINE></unused>
+  <RxChannel1><FILE>C:\Ardupilot\VFO\KKMulticopter\QRO v4 03012011\QuadControllerV4_5\QuadControllerV4_5.asm</FILE><LINE>1023</LINE></RxChannel1>
+  <waitms><FILE>C:\Ardupilot\VFO\KKMulticopter\QRO v4 03012011\QuadControllerV4_5\QuadControllerV4_5.asm</FILE><LINE>1010</LINE></waitms>
+  <ca6><FILE>C:\Ardupilot\VFO\KKMulticopter\QRO v4 03012011\QuadControllerV4_5\QuadControllerV4_5.asm</FILE><LINE>358</LINE></ca6>
+  <ReadGainPots><FILE>C:\Ardupilot\VFO\KKMulticopter\QRO v4 03012011\QuadControllerV4_5\QuadControllerV4_5.asm</FILE><LINE>934</LINE></ReadGainPots>
+  <b16_getregadd><FILE>C:\Ardupilot\VFO\KKMulticopter\QRO v4 03012011\QuadControllerV4_5\1616mathlib_ram_v1.asm</FILE><LINE>728</LINE></b16_getregadd>
+  <b16_cmp_c><FILE>C:\Ardupilot\VFO\KKMulticopter\QRO v4 03012011\QuadControllerV4_5\1616mathlib_ram_v1.asm</FILE><LINE>69</LINE></b16_cmp_c>
+  <ca9><FILE>C:\Ardupilot\VFO\KKMulticopter\QRO v4 03012011\QuadControllerV4_5\QuadControllerV4_5.asm</FILE><LINE>380</LINE></ca9>
+  <ca1><FILE>C:\Ardupilot\VFO\KKMulticopter\QRO v4 03012011\QuadControllerV4_5\QuadControllerV4_5.asm</FILE><LINE>435</LINE></ca1>
+  <ca7><FILE>C:\Ardupilot\VFO\KKMulticopter\QRO v4 03012011\QuadControllerV4_5\QuadControllerV4_5.asm</FILE><LINE>381</LINE></ca7>
+  <ca5><FILE>C:\Ardupilot\VFO\KKMulticopter\QRO v4 03012011\QuadControllerV4_5\QuadControllerV4_5.asm</FILE><LINE>390</LINE></ca5>
+  <RxGetChannels><FILE>C:\Ardupilot\VFO\KKMulticopter\QRO v4 03012011\QuadControllerV4_5\QuadControllerV4_5.asm</FILE><LINE>1158</LINE></RxGetChannels>
+  <ca8><FILE>C:\Ardupilot\VFO\KKMulticopter\QRO v4 03012011\QuadControllerV4_5\QuadControllerV4_5.asm</FILE><LINE>415</LINE></ca8>
+  <ReadEeprom><FILE>C:\Ardupilot\VFO\KKMulticopter\QRO v4 03012011\QuadControllerV4_5\QuadControllerV4_5.asm</FILE><LINE>1305</LINE></ReadEeprom>
+  <WriteEeprom><FILE>C:\Ardupilot\VFO\KKMulticopter\QRO v4 03012011\QuadControllerV4_5\QuadControllerV4_5.asm</FILE><LINE>1316</LINE></WriteEeprom>
+  <ca4><FILE>C:\Ardupilot\VFO\KKMulticopter\QRO v4 03012011\QuadControllerV4_5\QuadControllerV4_5.asm</FILE><LINE>423</LINE></ca4>
+  <ma1><FILE>C:\Ardupilot\VFO\KKMulticopter\QRO v4 03012011\QuadControllerV4_5\QuadControllerV4_5.asm</FILE><LINE>464</LINE></ma1>
+  <ca2><FILE>C:\Ardupilot\VFO\KKMulticopter\QRO v4 03012011\QuadControllerV4_5\QuadControllerV4_5.asm</FILE><LINE>440</LINE></ca2>
+  <ca3><FILE>C:\Ardupilot\VFO\KKMulticopter\QRO v4 03012011\QuadControllerV4_5\QuadControllerV4_5.asm</FILE><LINE>449</LINE></ca3>
+  <b16_move_c><FILE>C:\Ardupilot\VFO\KKMulticopter\QRO v4 03012011\QuadControllerV4_5\1616mathlib_ram_v1.asm</FILE><LINE>98</LINE></b16_move_c>
+  <output_motor_ppm><FILE>C:\Ardupilot\VFO\KKMulticopter\QRO v4 03012011\QuadControllerV4_5\QuadControllerV4_5.asm</FILE><LINE>774</LINE></output_motor_ppm>
+  <GetGyroDirections><FILE>C:\Ardupilot\VFO\KKMulticopter\QRO v4 03012011\QuadControllerV4_5\QuadControllerV4_5.asm</FILE><LINE>1340</LINE></GetGyroDirections>
+  <ma80><FILE>C:\Ardupilot\VFO\KKMulticopter\QRO v4 03012011\QuadControllerV4_5\QuadControllerV4_5.asm</FILE><LINE>505</LINE></ma80>
+  <ma81><FILE>C:\Ardupilot\VFO\KKMulticopter\QRO v4 03012011\QuadControllerV4_5\QuadControllerV4_5.asm</FILE><LINE>492</LINE></ma81>
+  <ma82><FILE>C:\Ardupilot\VFO\KKMulticopter\QRO v4 03012011\QuadControllerV4_5\QuadControllerV4_5.asm</FILE><LINE>509</LINE></ma82>
+  <ma12><FILE>C:\Ardupilot\VFO\KKMulticopter\QRO v4 03012011\QuadControllerV4_5\QuadControllerV4_5.asm</FILE><LINE>519</LINE></ma12>
+  <ma4><FILE>C:\Ardupilot\VFO\KKMulticopter\QRO v4 03012011\QuadControllerV4_5\QuadControllerV4_5.asm</FILE><LINE>563</LINE></ma4>
+  <ma50><FILE>C:\Ardupilot\VFO\KKMulticopter\QRO v4 03012011\QuadControllerV4_5\QuadControllerV4_5.asm</FILE><LINE>526</LINE></ma50>
+  <ma51><FILE>C:\Ardupilot\VFO\KKMulticopter\QRO v4 03012011\QuadControllerV4_5\QuadControllerV4_5.asm</FILE><LINE>566</LINE></ma51>
+  <b16_clr_c><FILE>C:\Ardupilot\VFO\KKMulticopter\QRO v4 03012011\QuadControllerV4_5\1616mathlib_ram_v1.asm</FILE><LINE>59</LINE></b16_clr_c>
+  <ma20><FILE>C:\Ardupilot\VFO\KKMulticopter\QRO v4 03012011\QuadControllerV4_5\QuadControllerV4_5.asm</FILE><LINE>532</LINE></ma20>
+  <ReadGyros><FILE>C:\Ardupilot\VFO\KKMulticopter\QRO v4 03012011\QuadControllerV4_5\QuadControllerV4_5.asm</FILE><LINE>905</LINE></ReadGyros>
+  <b16_add_c><FILE>C:\Ardupilot\VFO\KKMulticopter\QRO v4 03012011\QuadControllerV4_5\1616mathlib_ram_v1.asm</FILE><LINE>132</LINE></b16_add_c>
+  <b16_load_c><FILE>C:\Ardupilot\VFO\KKMulticopter\QRO v4 03012011\QuadControllerV4_5\1616mathlib_ram_v1.asm</FILE><LINE>115</LINE></b16_load_c>
+  <FastDivide><FILE>C:\Ardupilot\VFO\KKMulticopter\QRO v4 03012011\QuadControllerV4_5\QuadControllerV4_5.asm</FILE><LINE>1284</LINE></FastDivide>
+  <b16_store_c><FILE>C:\Ardupilot\VFO\KKMulticopter\QRO v4 03012011\QuadControllerV4_5\1616mathlib_ram_v1.asm</FILE><LINE>106</LINE></b16_store_c>
+  <b16_sub_c><FILE>C:\Ardupilot\VFO\KKMulticopter\QRO v4 03012011\QuadControllerV4_5\1616mathlib_ram_v1.asm</FILE><LINE>178</LINE></b16_sub_c>
+  <ma60><FILE>C:\Ardupilot\VFO\KKMulticopter\QRO v4 03012011\QuadControllerV4_5\QuadControllerV4_5.asm</FILE><LINE>604</LINE></ma60>
+  <NegateXY><FILE>C:\Ardupilot\VFO\KKMulticopter\QRO v4 03012011\QuadControllerV4_5\QuadControllerV4_5.asm</FILE><LINE>1359</LINE></NegateXY>
+  <b16_mul_c><FILE>C:\Ardupilot\VFO\KKMulticopter\QRO v4 03012011\QuadControllerV4_5\1616mathlib_ram_v1.asm</FILE><LINE>222</LINE></b16_mul_c>
+  <ma61><FILE>C:\Ardupilot\VFO\KKMulticopter\QRO v4 03012011\QuadControllerV4_5\QuadControllerV4_5.asm</FILE><LINE>640</LINE></ma61>
+  <ma62><FILE>C:\Ardupilot\VFO\KKMulticopter\QRO v4 03012011\QuadControllerV4_5\QuadControllerV4_5.asm</FILE><LINE>676</LINE></ma62>
+  <ma90><FILE>C:\Ardupilot\VFO\KKMulticopter\QRO v4 03012011\QuadControllerV4_5\QuadControllerV4_5.asm</FILE><LINE>698</LINE></ma90>
+  <ma91><FILE>C:\Ardupilot\VFO\KKMulticopter\QRO v4 03012011\QuadControllerV4_5\QuadControllerV4_5.asm</FILE><LINE>702</LINE></ma91>
+  <ma40><FILE>C:\Ardupilot\VFO\KKMulticopter\QRO v4 03012011\QuadControllerV4_5\QuadControllerV4_5.asm</FILE><LINE>721</LINE></ma40>
+  <ma41><FILE>C:\Ardupilot\VFO\KKMulticopter\QRO v4 03012011\QuadControllerV4_5\QuadControllerV4_5.asm</FILE><LINE>725</LINE></ma41>
+  <ma42><FILE>C:\Ardupilot\VFO\KKMulticopter\QRO v4 03012011\QuadControllerV4_5\QuadControllerV4_5.asm</FILE><LINE>729</LINE></ma42>
+  <ma43><FILE>C:\Ardupilot\VFO\KKMulticopter\QRO v4 03012011\QuadControllerV4_5\QuadControllerV4_5.asm</FILE><LINE>733</LINE></ma43>
+  <ma7><FILE>C:\Ardupilot\VFO\KKMulticopter\QRO v4 03012011\QuadControllerV4_5\QuadControllerV4_5.asm</FILE><LINE>744</LINE></ma7>
+  <ma8><FILE>C:\Ardupilot\VFO\KKMulticopter\QRO v4 03012011\QuadControllerV4_5\QuadControllerV4_5.asm</FILE><LINE>745</LINE></ma8>
+  <ma6><FILE>C:\Ardupilot\VFO\KKMulticopter\QRO v4 03012011\QuadControllerV4_5\QuadControllerV4_5.asm</FILE><LINE>760</LINE></ma6>
+  <ou1><FILE>C:\Ardupilot\VFO\KKMulticopter\QRO v4 03012011\QuadControllerV4_5\QuadControllerV4_5.asm</FILE><LINE>780</LINE></ou1>
+  <ou2><FILE>C:\Ardupilot\VFO\KKMulticopter\QRO v4 03012011\QuadControllerV4_5\QuadControllerV4_5.asm</FILE><LINE>784</LINE></ou2>
+  <ou3><FILE>C:\Ardupilot\VFO\KKMulticopter\QRO v4 03012011\QuadControllerV4_5\QuadControllerV4_5.asm</FILE><LINE>788</LINE></ou3>
+  <ou4><FILE>C:\Ardupilot\VFO\KKMulticopter\QRO v4 03012011\QuadControllerV4_5\QuadControllerV4_5.asm</FILE><LINE>792</LINE></ou4>
+  <ou5><FILE>C:\Ardupilot\VFO\KKMulticopter\QRO v4 03012011\QuadControllerV4_5\QuadControllerV4_5.asm</FILE><LINE>798</LINE></ou5>
+  <ou6><FILE>C:\Ardupilot\VFO\KKMulticopter\QRO v4 03012011\QuadControllerV4_5\QuadControllerV4_5.asm</FILE><LINE>802</LINE></ou6>
+  <ou7><FILE>C:\Ardupilot\VFO\KKMulticopter\QRO v4 03012011\QuadControllerV4_5\QuadControllerV4_5.asm</FILE><LINE>806</LINE></ou7>
+  <ou8><FILE>C:\Ardupilot\VFO\KKMulticopter\QRO v4 03012011\QuadControllerV4_5\QuadControllerV4_5.asm</FILE><LINE>810</LINE></ou8>
+  <FastMultiply><FILE>C:\Ardupilot\VFO\KKMulticopter\QRO v4 03012011\QuadControllerV4_5\QuadControllerV4_5.asm</FILE><LINE>1294</LINE></FastMultiply>
+  <ou13><FILE>C:\Ardupilot\VFO\KKMulticopter\QRO v4 03012011\QuadControllerV4_5\QuadControllerV4_5.asm</FILE><LINE>873</LINE></ou13>
+  <ou9><FILE>C:\Ardupilot\VFO\KKMulticopter\QRO v4 03012011\QuadControllerV4_5\QuadControllerV4_5.asm</FILE><LINE>877</LINE></ou9>
+  <ou10><FILE>C:\Ardupilot\VFO\KKMulticopter\QRO v4 03012011\QuadControllerV4_5\QuadControllerV4_5.asm</FILE><LINE>882</LINE></ou10>
+  <ou11><FILE>C:\Ardupilot\VFO\KKMulticopter\QRO v4 03012011\QuadControllerV4_5\QuadControllerV4_5.asm</FILE><LINE>887</LINE></ou11>
+  <ou12><FILE>C:\Ardupilot\VFO\KKMulticopter\QRO v4 03012011\QuadControllerV4_5\QuadControllerV4_5.asm</FILE><LINE>892</LINE></ou12>
+  <read_adc><FILE>C:\Ardupilot\VFO\KKMulticopter\QRO v4 03012011\QuadControllerV4_5\QuadControllerV4_5.asm</FILE><LINE>990</LINE></read_adc>
+  <ga1><FILE>C:\Ardupilot\VFO\KKMulticopter\QRO v4 03012011\QuadControllerV4_5\QuadControllerV4_5.asm</FILE><LINE>959</LINE></ga1>
+  <invert><FILE>C:\Ardupilot\VFO\KKMulticopter\QRO v4 03012011\QuadControllerV4_5\QuadControllerV4_5.asm</FILE><LINE>983</LINE></invert>
+  <ga2><FILE>C:\Ardupilot\VFO\KKMulticopter\QRO v4 03012011\QuadControllerV4_5\QuadControllerV4_5.asm</FILE><LINE>969</LINE></ga2>
+  <ga3><FILE>C:\Ardupilot\VFO\KKMulticopter\QRO v4 03012011\QuadControllerV4_5\QuadControllerV4_5.asm</FILE><LINE>979</LINE></ga3>
+  <re1><FILE>C:\Ardupilot\VFO\KKMulticopter\QRO v4 03012011\QuadControllerV4_5\QuadControllerV4_5.asm</FILE><LINE>997</LINE></re1>
+  <wa1><FILE>C:\Ardupilot\VFO\KKMulticopter\QRO v4 03012011\QuadControllerV4_5\QuadControllerV4_5.asm</FILE><LINE>1012</LINE></wa1>
+  <rx1m1><FILE>C:\Ardupilot\VFO\KKMulticopter\QRO v4 03012011\QuadControllerV4_5\QuadControllerV4_5.asm</FILE><LINE>1043</LINE></rx1m1>
+  <rx2m1><FILE>C:\Ardupilot\VFO\KKMulticopter\QRO v4 03012011\QuadControllerV4_5\QuadControllerV4_5.asm</FILE><LINE>1076</LINE></rx2m1>
+  <rx3m1><FILE>C:\Ardupilot\VFO\KKMulticopter\QRO v4 03012011\QuadControllerV4_5\QuadControllerV4_5.asm</FILE><LINE>1109</LINE></rx3m1>
+  <rx4m1><FILE>C:\Ardupilot\VFO\KKMulticopter\QRO v4 03012011\QuadControllerV4_5\QuadControllerV4_5.asm</FILE><LINE>1142</LINE></rx4m1>
+  <XAbs><FILE>C:\Ardupilot\VFO\KKMulticopter\QRO v4 03012011\QuadControllerV4_5\QuadControllerV4_5.asm</FILE><LINE>1245</LINE></XAbs>
+  <ScaleMinus100To100><FILE>C:\Ardupilot\VFO\KKMulticopter\QRO v4 03012011\QuadControllerV4_5\QuadControllerV4_5.asm</FILE><LINE>1260</LINE></ScaleMinus100To100>
+  <c2><FILE>C:\Ardupilot\VFO\KKMulticopter\QRO v4 03012011\QuadControllerV4_5\QuadControllerV4_5.asm</FILE><LINE>1177</LINE></c2>
+  <c3><FILE>C:\Ardupilot\VFO\KKMulticopter\QRO v4 03012011\QuadControllerV4_5\QuadControllerV4_5.asm</FILE><LINE>1195</LINE></c3>
+  <Scale0To100><FILE>C:\Ardupilot\VFO\KKMulticopter\QRO v4 03012011\QuadControllerV4_5\QuadControllerV4_5.asm</FILE><LINE>1270</LINE></Scale0To100>
+  <c4><FILE>C:\Ardupilot\VFO\KKMulticopter\QRO v4 03012011\QuadControllerV4_5\QuadControllerV4_5.asm</FILE><LINE>1213</LINE></c4>
+  <c5><FILE>C:\Ardupilot\VFO\KKMulticopter\QRO v4 03012011\QuadControllerV4_5\QuadControllerV4_5.asm</FILE><LINE>1241</LINE></c5>
+  <xa1><FILE>C:\Ardupilot\VFO\KKMulticopter\QRO v4 03012011\QuadControllerV4_5\QuadControllerV4_5.asm</FILE><LINE>1257</LINE></xa1>
+  <sc1><FILE>C:\Ardupilot\VFO\KKMulticopter\QRO v4 03012011\QuadControllerV4_5\QuadControllerV4_5.asm</FILE><LINE>1275</LINE></sc1>
+  <wr1><FILE>C:\Ardupilot\VFO\KKMulticopter\QRO v4 03012011\QuadControllerV4_5\QuadControllerV4_5.asm</FILE><LINE>1319</LINE></wr1>
+  <b16_sr><FILE>C:\Ardupilot\VFO\KKMulticopter\QRO v4 03012011\QuadControllerV4_5\1616mathlib_ram_v1.asm</FILE><LINE>43</LINE></b16_sr>
+  <b16_lr><FILE>C:\Ardupilot\VFO\KKMulticopter\QRO v4 03012011\QuadControllerV4_5\1616mathlib_ram_v1.asm</FILE><LINE>50</LINE></b16_lr>
+  <b16_GetOp1><FILE>C:\Ardupilot\VFO\KKMulticopter\QRO v4 03012011\QuadControllerV4_5\1616mathlib_ram_v1.asm</FILE><LINE>691</LINE></b16_GetOp1>
+  <b16_GetOp2><FILE>C:\Ardupilot\VFO\KKMulticopter\QRO v4 03012011\QuadControllerV4_5\1616mathlib_ram_v1.asm</FILE><LINE>703</LINE></b16_GetOp2>
+  <b16_StoreResult><FILE>C:\Ardupilot\VFO\KKMulticopter\QRO v4 03012011\QuadControllerV4_5\1616mathlib_ram_v1.asm</FILE><LINE>715</LINE></b16_StoreResult>
+  <b16_pre><FILE>C:\Ardupilot\VFO\KKMulticopter\QRO v4 03012011\QuadControllerV4_5\1616mathlib_ram_v1.asm</FILE><LINE>628</LINE></b16_pre>
+  <b16_mu2><FILE>C:\Ardupilot\VFO\KKMulticopter\QRO v4 03012011\QuadControllerV4_5\1616mathlib_ram_v1.asm</FILE><LINE>262</LINE></b16_mu2>
+  <b16_mu3><FILE>C:\Ardupilot\VFO\KKMulticopter\QRO v4 03012011\QuadControllerV4_5\1616mathlib_ram_v1.asm</FILE><LINE>316</LINE></b16_mu3>
+  <b16_mu9><FILE>C:\Ardupilot\VFO\KKMulticopter\QRO v4 03012011\QuadControllerV4_5\1616mathlib_ram_v1.asm</FILE><LINE>283</LINE></b16_mu9>
+  <b16_mua><FILE>C:\Ardupilot\VFO\KKMulticopter\QRO v4 03012011\QuadControllerV4_5\1616mathlib_ram_v1.asm</FILE><LINE>281</LINE></b16_mua>
+  <b16_mu4><FILE>C:\Ardupilot\VFO\KKMulticopter\QRO v4 03012011\QuadControllerV4_5\1616mathlib_ram_v1.asm</FILE><LINE>359</LINE></b16_mu4>
+  <b16_mu5><FILE>C:\Ardupilot\VFO\KKMulticopter\QRO v4 03012011\QuadControllerV4_5\1616mathlib_ram_v1.asm</FILE><LINE>345</LINE></b16_mu5>
+  <b16_mu6><FILE>C:\Ardupilot\VFO\KKMulticopter\QRO v4 03012011\QuadControllerV4_5\1616mathlib_ram_v1.asm</FILE><LINE>350</LINE></b16_mu6>
+  <b16_mu1><FILE>C:\Ardupilot\VFO\KKMulticopter\QRO v4 03012011\QuadControllerV4_5\1616mathlib_ram_v1.asm</FILE><LINE>356</LINE></b16_mu1>
+  <b16_neg><FILE>C:\Ardupilot\VFO\KKMulticopter\QRO v4 03012011\QuadControllerV4_5\1616mathlib_ram_v1.asm</FILE><LINE>575</LINE></b16_neg>
+  <b16_mu8><FILE>C:\Ardupilot\VFO\KKMulticopter\QRO v4 03012011\QuadControllerV4_5\1616mathlib_ram_v1.asm</FILE><LINE>361</LINE></b16_mu8>
+  <b16_bc><FILE>C:\Ardupilot\VFO\KKMulticopter\QRO v4 03012011\QuadControllerV4_5\1616mathlib_ram_v1.asm</FILE><LINE>602</LINE></b16_bc>
+  <b16_bc1><FILE>C:\Ardupilot\VFO\KKMulticopter\QRO v4 03012011\QuadControllerV4_5\1616mathlib_ram_v1.asm</FILE><LINE>604</LINE></b16_bc1>
+  <b16_pr1><FILE>C:\Ardupilot\VFO\KKMulticopter\QRO v4 03012011\QuadControllerV4_5\1616mathlib_ram_v1.asm</FILE><LINE>661</LINE></b16_pr1>
+  <b16_pr2><FILE>C:\Ardupilot\VFO\KKMulticopter\QRO v4 03012011\QuadControllerV4_5\1616mathlib_ram_v1.asm</FILE><LINE>688</LINE></b16_pr2>
+ </LABELS>
+</ASSEMBLER_INFO>
