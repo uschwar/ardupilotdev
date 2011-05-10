@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="ArduFGControl" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="default">
+				<Option output="ArduFGControl" prefix_auto="1" extension_auto="1" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Dmain=SDL_main" />
+		</Compiler>
+		<Linker>
+			<Add option="-mwindows" />
+			<Add library="mingw32" />
+			<Add library="SDLmain" />
+			<Add library="SDL" />
+			<Add library="SDL_Image" />
+			<Add library="SDL_gfx" />
+			<Add library="SDL_ttf" />
+			<Add library="fltk" />
+			<Add library="wsock32" />
+			<Add library="winmm" />
+			<Add library="ole32" />
+			<Add library="iberty" />
+			<Add library="uuid" />
+		</Linker>
+		<Unit filename="afgcinit.txt" />
+		<Unit filename="main.cpp" />
+		<Unit filename="net_ctrls.hxx" />
+		<Unit filename="net_fdm.hxx" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

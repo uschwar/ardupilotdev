@@ -1,0 +1,12 @@
+Setup file:
+COM:3
+LOG:0
+EFF:80 130 100
+SET:0.008000 0.010000 0.001000 0.300000 0.002000 0.030000 -0.005000
+
+UDP sockets creation
+packet length should be 408 bytes
+bind sock ret=0
+bind sock2 ret2=0
+ serial port COM3 connect OK 
+

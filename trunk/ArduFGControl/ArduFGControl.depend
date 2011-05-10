@@ -1,0 +1,40 @@
+# depslib dependency file v1.0
+1284182310 source:c:\dev-cpp\ardufgcontrol\main.cpp
+	<cstdlib>
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<unistd.h>
+	<sys/time.h>
+	<unistd.h>
+	<errno.h>
+	<conio.h>
+	<string.h>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<SDL/SDL_Thread.h>
+	<winsock2.h>
+	<FL/Fl.H>
+	<FL/Fl_Window.H>
+	<FL/Fl_Value_Output.H>
+	<FL/Fl_Button.H>
+	<FL/Fl_Input.H>
+	<FL/Fl_Output.H>
+	<FL/Fl_Return_Button.H>
+	<FL/Fl_Menu_Bar.H>
+	<FL/Fl_File_Chooser.H>
+	<FL/Fl_Text_Display.H>
+	<FL/Fl_Text_Editor.H>
+	<FL/Fl_Int_Input.H>
+	<cstdio>
+	"net_fdm.hxx"
+	"net_ctrls.hxx"
+
+1259586382 c:\dev-cpp\ardufgcontrol\net_fdm.hxx
+	<time.h>
+	<iostream>
+
+1228461000 c:\dev-cpp\ardufgcontrol\net_ctrls.hxx
+	"net_fdm.hxx"
+
