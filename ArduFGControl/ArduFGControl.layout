@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="default" />
+	<File name="afgcinit.txt" open="1" top="0" tabpos="2">
+		<Cursor position="19" topLine="0" />
+	</File>
+	<File name="main.cpp" open="1" top="1" tabpos="1">
+		<Cursor position="28152" topLine="416" />
+	</File>
+</CodeBlocks_layout_file>
+[Editors]
+Order=0
+Focused=0
+[Editor_0]
+Open=1
+Top=1
+CursorCol=66
+CursorRow=14
+TopLine=13
+LeftChar=1
+[Editor_1]
+Open=0
+Top=0
+[Editor_2]
+Open=0
+Top=0
+[Editor_3]
+Open=0
+Top=0
+[Editor_4]
+Open=0
+Top=0
