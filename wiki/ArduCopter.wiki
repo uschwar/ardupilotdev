@@ -3,12 +3,12 @@
 
 = Introduction =
 
-Here you will find a good and cheap method to conduct test yourself  the !ArduCopter firmware in HIL (Hardware In the Loop) mode with the [http://www.x-plane.com X-Plane simulator].
+Here you will find a good and cheap method to conduct test yourself  the [http://code.google.com/p/arducopter/ ArduCopter] firmware in HIL (Hardware In the Loop) mode with the [http://www.x-plane.com X-Plane simulator].
 
 === Details ===
 *Hardware requirement:*
  * a PC computer,
  * an !ArduMega board APMv1 (1280, 2560)or APMv2,for the APMv1, no IMU shield is required,
- * the X-Plane v9.70 simulator (Demo or Retail version),
+ * the [http://www.x-plane.com/downloads/older/ X-Plane v9.70] simulator (Demo or Retail version),
  * the firmware !ArduCopter v2.1.1 R6 or more installed on the APM,
  * the Mission Planner v1.1.18 (or more) installed on the PC,
