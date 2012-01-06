@@ -3,8 +3,7 @@
 
 = Introduction =
 
-Add your content here.
-
+Here you will find a good and cheap method to conduct test yourself  the ArduCopter firmware in HIL (Hardware In the Loop) mode with the X-Plane simulator.
 
 = Details =
 
