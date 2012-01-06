@@ -41,7 +41,7 @@ The mission file that you have uploaded is a demo of a full autonomous mission d
 You will find a full video of this flight [http://vimeo.com/34606524 HERE]
 How to start the test mission:
  # Launch and connect the APM Planner to the !ArduMega board
- * click on the Simulation Tab then click on "Start Xplane", if not yet launched
+ # click on the Simulation Tab then click on "Start Xplane", if not yet launched
  # On *X-Plane* file/load the situation *LOWI_AIRPORT.sit*
  # then select the chase view (A)
  # On the APM planner, click to *Start the Simulation*, see below:
