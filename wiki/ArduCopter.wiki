@@ -50,6 +50,7 @@ http://ardupilotdev.googlecode.com/svn/images/startsim.jpg
  # select all the script then Copy it into the clipboard (Ctrl-C)
  # On the APM planner, click on the tab 'Flight Data', then click on the button 'Script' at the bottom left,
  # then Paste (Ctrl-V) the clipboard to the script windows
+http://ardupilotdev.googlecode.com/svn/images/Launch_script.jpg
  # close the script windows and click OK to run the script...
 If all is ok, you will see the quadcopter flying in a full autonomous flight...
 
