@@ -52,5 +52,11 @@ http://ardupilotdev.googlecode.com/svn/images/startsim.jpg
  * then Paste (Ctrl-V) the clipboard to the script windows
  * close the script windows and click OK to run the script...
 If all is ok, you will see the quadcopter flying in a full autonomous flight...
-Enjoy...
-Regards, Jean-Louis
+
+More infos at:
+[http://diydrones.com/profiles/blogs/arducopter-in-action-testing-the-quadcopter-hil-mode-on-x-plane]
+
+Enjoy with the HIL simulation...
+
+Regards, 
+Jean-Louis
