@@ -15,6 +15,7 @@ http://ardupilotdev.googlecode.com/svn/images/hilloiter2.png
  * the [http://www.x-plane.com/downloads/older/ X-Plane v9.70] simulator (Demo or Retail version),
  * the firmware [http://ardupilotdev.googlecode.com/files/ArduCopter_2_1_1r6.zip ArduCopter v2.1.1 R6] or more installed on the APM,
  * the [http://code.google.com/p/ardupilot-mega/downloads/list Mission Planner v1.1.18] (or more) installed on the PC,
+ * the [http://ardupilotdev.googlecode.com/files/starter_pack.zip Starter Pack] for the HIL simulation
 
 http://ardupilotdev.googlecode.com/svn/images/arducopterHil1.jpg
 
@@ -22,6 +23,6 @@ http://ardupilotdev.googlecode.com/svn/images/arducopterHil1.jpg
 
 The X-Plane v9.70 and Mission Planner must be installed on the PC and and the ArduCopter firmware installed in the APM board.
 
-You need to add some additional files to run the full ArduCopter simulation in HIL mode, you will find the started package HERE.
+You need to add some additional files to run the full ArduCopter simulation in HIL mode, you will find [http://ardupilotdev.googlecode.com/files/starter_pack.zip the started package HERE].
 
  
