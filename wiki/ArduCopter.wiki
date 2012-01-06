@@ -5,6 +5,8 @@
 
 Here you will find a good and cheap method to conduct test yourself  the [http://code.google.com/p/arducopter/ ArduCopter] firmware in HIL (Hardware In the Loop) mode with the [http://www.x-plane.com X-Plane simulator].
 
+http://ardupilotdev.googlecode.com/svn/images/hilloiter1.png
+
 === Details ===
 *Hardware requirement:*
  * a PC computer,
