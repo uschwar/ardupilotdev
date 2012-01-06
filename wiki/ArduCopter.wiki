@@ -30,14 +30,19 @@ You need to add some additional files to run the full ArduCopter simulation in H
  * upload the param file *AC211r6_Xplane.param* with the APM Planner to the APM board
  * upload the mission file *LOWI_AIRPORT_MISSION.txt* with the APM Planner to the APM board
 
+Launch the X-plane simulator, when X-plane is ready, you need to set the correct parameters for the network connection (see below):
+
+http://ardupilotdev.googlecode.com/svn/images/XplaneV970set1.jpg
+http://ardupilotdev.googlecode.com/svn/images/XplaneV970set2.jpg
+
 == Testing ==
 
 The mission file that you have uploaded is a demo of a full autonomous mission done at the LOWI airport (the airport set by default in the X-Plane demo version).
 You will find a full video of this flight [http://vimeo.com/34606524 HERE]
 How to start the test mission:
- *1) Launch and connect the APM Planner to the ArduMega board
- *2) click on the Simulation Tab then click on "Start Xplane"
- *3) when X-plane is ready, you need to set the correct parameters for the network connection (see below):
-
-http://ardupilotdev.googlecode.com/svn/images/XplaneV970set1.jpg
-http://ardupilotdev.googlecode.com/svn/images/XplaneV970set2.jpg
+ *1) Launch and connect the APM Planner to the !ArduMega board
+ *2) click on the Simulation Tab then click on "Start Xplane", if not yet launched
+ *3) On *X-Plane* file/load the situation *LOWI_AIRPORT.sit*
+ *4) then select the chase view (A)
+ *5) On the APM planner, click to *Start the Simulation*, see below:
+http://ardupilotdev.googlecode.com/svn/images/startsim.jpg
