@@ -23,6 +23,13 @@ http://ardupilotdev.googlecode.com/svn/images/arducopterHil1.jpg
 
 The X-Plane v9.70 and Mission Planner must be installed on the PC and and the ArduCopter firmware installed in the APM board.
 
-You need to add some additional files to run the full ArduCopter simulation in HIL mode, you will find [http://ardupilotdev.googlecode.com/files/starter_pack.zip the started package HERE].
+You need to add some additional files to run the full ArduCopter simulation in HIL mode, you will find [http://ardupilotdev.googlecode.com/files/starter_pack.zip the started package HERE]
+
+ * copy the folder QRO_X into the folder *X-Plane 9 Demo/Aicraft/Radio Control/*  this is the quadcopter model for X-Plane
+ * copy the file LOWI_AIRPORT.sit in the folder *X-Plane 9 Demo/Output/situations/* this is the situation for the simulation
+ * upload the param file *AC211r6_Xplane.param* with the APM Planner to the APM board
+ * upload the mission file *LOWI_AIRPORT_MISSION.txt* with the APM Planner to the APM board
+
+ 
 
  
