@@ -37,11 +37,11 @@ http://ardupilotdev.googlecode.com/svn/images/AC22b2xp_AeroSIMRCsetup.jpg
  # launch the APM mission planner
  # click on the Tab *simulation*
  # click on *CONNECT* on the top right corner
- # click on the button *AeroSim*
+ # click on the button *!AeroSim*
  # click on *Start simulation*
  # launch the *AeroSIM-RC* then select *Plugin* and *APMHil*
  # select the model *Quad-IV* 
- # with the windows !NotePad open the launch script *scriptRTL_Land_Test.txt*, select all the text and then copy in into the clipboard ctrl-c
+ # with the windows !NotePad open the launch script *!scriptRTL_Land_Test.txt*, select all the text and then copy in into the clipboard ctrl-c
  # on the main windows of the mission planner, click on the button *script* then paste the clipboard ctrl-p and close the window script. Clic to Yes when you see *Run Script*
 
 If all is ok, you will see the quadcopter flying in a full autonomous flight on a simple 2 minutes mission...
