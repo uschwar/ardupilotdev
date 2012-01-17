@@ -28,7 +28,7 @@ http://ardupilotdev.googlecode.com/svn/images/AeroSimRC_HIL.jpg
   #define X_PLANE 	ENABLED
 }}}
 
-4) upload the AeroSimPID.param (found in the ArduCopter_HIL_setups\AeroSim_Hill folder ) with the mission planner to your APM board.
+4) upload the AeroSimPID.param (found in the ArduCopter_HIL_setups\!AeroSim_Hill folder ) with the mission planner to your APM board.
 
 http://ardupilotdev.googlecode.com/svn/images/AC22b2xp_PID_HIL_AeroSim.jpg
 
