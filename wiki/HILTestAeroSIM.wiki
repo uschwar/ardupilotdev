@@ -1,0 +1,37 @@
+#summary Testing the firmware in Hil mode with AeroSIM-RC.
+#labels Featured
+
+= Introduction =
+
+Here you will find a good and cheap method to test yourself  the [http://code.google.com/p/arducopter/ ArduCopter] firmware in HIL (Hardware In the Loop) mode with the [http://www.aerosimrc.com/j/index.php/en AeroSIM-RC simulator].
+
+http://ardupilotdev.googlecode.com/svn/images/AeroSimRC_HIL.jpg
+
+== Details ==
+*Hardware requirement:*
+ * a PC computer,
+ * an !ArduMega board APMv1 (1280, 2560)or APMv2,for the APMv1, no IMU shield is required (more info [http://code.google.com/p/ardupilot-mega/ HERE]),
+ * the [http://www.aerosimrc.com/j/index.php/en/downloads AeroSIM-RC v3.81] simulator (Demo or Retail version),
+ * the firmware [http://ardupilotdev.googlecode.com/files/ArduCopter22b2xp.zip ArduCopter v2.2 b2xp] or more installed on the APM,
+ * the [http://code.google.com/p/ardupilot-mega/downloads/list Mission Planner v1.1.20] (or more) installed on the PC, you may download the latest version in the [http://code.google.com/p/ardupilot-mega/source/browse/ Ardupilot-mega official repository] with GIT
+ * the [http://ardupilotdev.googlecode.com/files/ArduCopter_HIL_setups.zip HIL setups and param files] for the HIL simulation
+
+== Installation ==
+
+1) Unzip the archive AeroSimRCAPMHil.zip
+2) copy the folder \APMHill in the AeroSiM folder c:\Program Files (x86)\Plugin\
+3) check that in the firmware the parameters of the APM_Config.h are set:
+	#define HIL_MODE 	HIL_MODE_ATTITUDE
+	#define X_PLANE 	ENABLED
+
+== Testing ==
+
+If all is ok, you will see the quadcopter flying in a full autonomous flight...
+
+More infos at:
+[http://diydrones.com/profile/JeanLouisNaudin]
+
+Enjoy with the HIL simulation with AeroSIM-RC...
+
+Regards, 
+Jean-Louis
