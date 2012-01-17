@@ -19,11 +19,14 @@ http://ardupilotdev.googlecode.com/svn/images/AeroSimRC_HIL.jpg
 
 == Installation ==
 
-1) Unzip the archive AeroSimRCAPMHil.zip
-2) copy the folder \APMHill in the AeroSiM folder c:\Program Files (x86)\Plugin\
+ # Unzip the archive AeroSimRCAPMHil.zip
+ # copy the folder \APMHill in the AeroSiM folder c:\Program Files (x86)\Plugin\
 3) check that in the firmware the parameters of the APM_Config.h are set:
-	#define HIL_MODE 	HIL_MODE_ATTITUDE
-	#define X_PLANE 	ENABLED
+
+{{{
+  #define HIL_MODE 	HIL_MODE_ATTITUDE
+  #define X_PLANE 	ENABLED
+}}}
 
 4) upload the AeroSimPID.param (found in the ArduCopter_HIL_setups\AeroSim_Hill folder ) with the mission planner to your APM board.
 
@@ -31,19 +34,19 @@ http://ardupilotdev.googlecode.com/svn/images/AeroSimRC_HIL.jpg
 
 http://ardupilotdev.googlecode.com/svn/images/AC22b2xp_AeroSIMRCsetup.jpg
 
-1) launch the APM mission planner
-2) click on the Tab *simulation*
-3) click on *CONNECT* on the top right corner
-4) click on the button *AeroSim*
-5) click on *Start simulation*
-6) launch the AeroSIM-RC then select *Plugin* and *APMHil*
-7) select the model "Quad-IV" 
-8) with the windows NotePad open the launch script *scriptRTL_Land_Test.txt*, select all the text and then copy in into the clipboard ctrl-c
-9) on the main windows of the mission planner, click on the button *script* then paste the clipboard ctrl-p and close the window script. Clic to Yes when you see *Run Script*
+ # launch the APM mission planner
+ # click on the Tab *simulation*
+ # click on *CONNECT* on the top right corner
+ # click on the button *AeroSim*
+ # click on *Start simulation*
+ # launch the AeroSIM-RC then select *Plugin* and *APMHil*
+ # select the model "Quad-IV" 
+ # with the windows NotePad open the launch script *scriptRTL_Land_Test.txt*, select all the text and then copy in into the clipboard ctrl-c
+ # on the main windows of the mission planner, click on the button *script* then paste the clipboard ctrl-p and close the window script. Clic to Yes when you see *Run Script*
 
 If all is ok, you will see the quadcopter flying in a full autonomous flight on a simple 2 minutes mission...
 
-You will find a video of this simple mission at: http://vimeo.com/35097058
+You will find a video of this simple mission at: [http://vimeo.com/35097058]
 
 More infos at:
 [http://diydrones.com/profile/JeanLouisNaudin]
