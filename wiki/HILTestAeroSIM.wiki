@@ -15,7 +15,7 @@ http://ardupilotdev.googlecode.com/svn/images/AeroSimRC_HIL.jpg
  * the firmware [http://ardupilotdev.googlecode.com/files/ArduCopter22b2xp.zip ArduCopter v2.2 b2xp] or more installed on the APM,
  * the [http://code.google.com/p/ardupilot-mega/downloads/list Mission Planner v1.1.20] (or more) installed on the PC, you may download the latest version in the [http://code.google.com/p/ardupilot-mega/source/browse/ Ardupilot-mega official repository] with GIT
  * the [http://ardupilotdev.googlecode.com/files/ArduCopter_HIL_setups.zip HIL setups and param files] for the HIL simulation
- * the AeroSim plug-in (plugin_AeroSIMRC.dll) from the zip file AeroSimRCAPMHil.zip which can be found in the mission panner folder.
+ * the !AeroSim plug-in (plugin_AeroSIMRC.dll) from the zip file AeroSimRCAPMHil.zip which can be found in the mission panner folder.
 
 == Installation ==
 
@@ -41,7 +41,7 @@ http://ardupilotdev.googlecode.com/svn/images/AC22b2xp_AeroSIMRCsetup.jpg
  # click on *Start simulation*
  # launch the *AeroSIM-RC* then select *Plugin* and *APMHil*
  # select the model *Quad-IV* 
- # with the windows !NotePad open the launch script *scriptRTL_!Land_Test.txt*, select all the text and then copy in into the clipboard ctrl-c
+ # with the windows !NotePad open the launch script *scriptRTL_!_Land_Test.txt*, select all the text and then copy in into the clipboard ctrl-c
  # on the main windows of the mission planner, click on the button *script* then paste the clipboard ctrl-p and close the window script. Clic to Yes when you see *Run Script*
 
 If all is ok, you will see the quadcopter flying in a full autonomous flight on a simple 2 minutes mission...
