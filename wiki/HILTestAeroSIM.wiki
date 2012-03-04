@@ -12,8 +12,7 @@ http://ardupilotdev.googlecode.com/svn/images/AeroSIM_sim.jpg
  * a PC computer,
  * an !ArduMega board APMv1 (1280, 2560)or APMv2,for the APMv1, no IMU shield is required (more info [http://code.google.com/p/ardupilot-mega/ HERE]),
  * the [http://www.aerosimrc.com/j/index.php/en/downloads AeroSIM-RC v3.81] simulator (Demo or Retail version),
- * update the Aerosim-RC 3.81 to the v3.83 by downloading this update:
-[http://www.aerosimrc.com/downloads/AeroSIMRC_3.83-3.81.exe]
+ * update the Aerosim-RC 3.81 to the v3.83 by downloading this update:  [http://www.aerosimrc.com/downloads/AeroSIMRC_3.83-3.81.exe]
  * the firmware [http://ardupilotdev.googlecode.com/files/ArduCopter_241xp2_DCM.zip ArduCopter v2.4.1xp2 DCM] or more installed on the APM,
  * the [http://code.google.com/p/ardupilot-mega/downloads/list Mission Planner v1.1.48] (or more) installed on the PC, you may download the latest version in the [http://code.google.com/p/ardupilot-mega/source/browse/ Ardupilot-mega official repository] with GIT
  * the [http://ardupilotdev.googlecode.com/files/ArduCopter_HIL_setups.zip HIL setups and param files] for the HIL simulation
