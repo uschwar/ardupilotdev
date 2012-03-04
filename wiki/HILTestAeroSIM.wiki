@@ -60,7 +60,7 @@ http://ardupilotdev.googlecode.com/svn/images/AeroSIM_sim.jpg
 
 You will find some videos of HIL simulations at: 
 
-[http://vimeo.com/35097058]
+[http://vimeo.com/37896642]
 
 [http://vimeo.com/37243083]
 
