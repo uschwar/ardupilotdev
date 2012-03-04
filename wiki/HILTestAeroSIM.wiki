@@ -16,11 +16,11 @@ http://ardupilotdev.googlecode.com/svn/images/AeroSIM_sim.jpg
  * the [http://code.google.com/p/ardupilot-mega/downloads/list Mission Planner v1.1.48] (or more) installed on the PC, you may download the latest version in the [http://code.google.com/p/ardupilot-mega/source/browse/ Ardupilot-mega official repository] with GIT
  * the [http://ardupilotdev.googlecode.com/files/ArduCopter_HIL_setups.zip HIL setups and param files] for the HIL simulation
  * You will find in the [http://ardupilotdev.googlecode.com/files/ArduCopter_HIL_setups.zip  ArduCopter_HIL_setups.zip], , the !AeroSim plug-in (plugin_AeroSIMRC.dll) in the AeroSIM_HIL/APMHil/ folder.
- * You will find also in the [http://ardupilotdev.googlecode.com/files/ArduCopter_HIL_setups.zip  ArduCopter_HIL_setups.zip], the quadcopter model MD4.mdl AeroSIM_HIL/ folder.
+ * You will find also in the [http://ardupilotdev.googlecode.com/files/ArduCopter_HIL_setups.zip  ArduCopter_HIL_setups.zip], the quadcopter model MD4.mdl in the AeroSIM_HIL/ folder.
 
 == Installation ==
 
- # Unzip the archive AeroSimRCAPMHil.zip
+ # Unzip the archive !ArduCopter_HIL_setups.zip
  # copy the folder \APMHill in the AeroSiM folder c:\Program Files (x86)\Plugin\
  # check that in the firmware the parameters of the APM_Config.h are set:
 
@@ -29,7 +29,7 @@ http://ardupilotdev.googlecode.com/svn/images/AeroSIM_sim.jpg
   #define X_PLANE 	ENABLED
 }}}
 
-4) upload the AeroSimPID.param (found in the !ArduCopter_HIL_setups\!AeroSim_Hill folder ) with the mission planner to your APM board.
+4) upload the AC241xp2_MD4_HIL.param (found in the !ArduCopter_HIL_setups\!AeroSim_Hill folder ) with the mission planner to your APM board.
 
 http://ardupilotdev.googlecode.com/svn/images/AC22b2xp_PID_HIL_AeroSim.jpg
 
