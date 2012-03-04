@@ -58,6 +58,7 @@ Enjoy flying with AeroSIM in HIL mode
 http://ardupilotdev.googlecode.com/svn/images/AeroSIM_sim.jpg
 
 You will find some videos of HIL simulations at: [http://vimeo.com/35097058]
+
 [http://vimeo.com/37243083]
 
 More infos at:
