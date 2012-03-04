@@ -1,0 +1,827 @@
+
+//------------------------------------------------------------------------------
+//------------------------------------------------------------------------------
+.MODEL_INFO QUAD
+{
+  .ARTISTIC_NAME "MK-Quadro"
+  .DESCRIPTION_EN "This MikroKopter multirotor model has four fixed pitch rotors, and it is stablilised with accelerometers and gyroscopes that keep the model level. More info at www.mikrokopter.de"
+  .DESCRIPTION_ES "Este multi-rotor de MikroKopter incorpora cuatro rotores de paso fijo, y está estabilizado con acelerómetros y giróscopos que mantienen el modelo nivelado. Más información en www.mikrokopter.de"
+  .PILOT_SKILL IDS_E_PS_INTERMEDIATE
+  .FLIGHT_TYPE_1 IDS_E_FT_MULTIROTOR
+  .FLIGHT_TYPE_2 IDS_E_FT_UNDEFINED
+  .WING_CONFIGURATION_1 IDS_E_WC_UNDEFINED
+  .WING_CONFIGURATION_2 IDS_E_WC_UNDEFINED
+  .UNDERCARRIAGE_TYPE IDS_E_UCT_UNKNOWN
+  .TRAINING_PROGRAM_TYPE_1 IDS_E_TRP_COPTER
+  .FULL_SCALE_AIRCRAFT_WING_SPAN 0.000000
+  .THUMBNAIL_IMG_FILE "Quadro-M.jpg"
+  .3D_MODEL_FILE "Quadro50.ive"
+  .3D_MODEL_SCALE 0.100000
+  .3D_MODEL_BOUNDING_RADIUS 0.500000
+  .3D_MODEL_OFFSET_POS 0.000000 0.000000 0.000000
+  .3D_MODEL_OFFSET_HPR 0.000000 0.000000 0.000000
+  .RESET_POS_POS 0.000000 0.000000 0.140000
+  .RESET_POS_HPR 0.000000 0.000000 0.000000
+  .HAND_LAUNCH_HEIGHT 1.800000
+  .HAND_LAUNCH_PITCH_DEG 0.000000
+  .HAND_LAUNCH_VELOCITY 20.000000
+  .HAND_LAUNCH_VELOCITY_PITCH_DEG 46.000000
+  .STICK_POS_MOTORS_ON IDS_E_STP_UNDEFINED
+  .STICK_POS_MOTORS_OFF IDS_E_STP_UNDEFINED
+  .STICK_POS_CALIBRATE IDS_E_STP_UNDEFINED
+  .SHADOW_TEXTURE_FILE "Quadro-Sh.tga"
+  .SHADOW_SCALE 0.557000
+  .SHADOW_OFFSET 0.000000 0.000000
+  .SOUND_INIT_ELECTRONICS_FILE "MK-init-beep-4.wav"
+  .SOUND_INIT_ELECTRONICS_VOLUME 0.100000
+  .MAX_INTEGRATION_STEP 0.002000
+  .DAMAGE_100 50.000000
+  .BIAS_WING_CONTROL 1.000000
+  .BIAS_ENGINE_POWER 1.000000
+  .BIAS_SERVO_SPEED 1.000000
+  .BIAS_CG 1.000000
+  .BIAS_TRIM 0.000000
+  .MIN_AEROSIMRC_VERSION 3.600000
+  .SERIAL_NUMBER 21
+  .HAS_RETRACT_LANDING_GEAR 0
+  .IS_HAND_LAUNCH_ONLY 0
+  .HAS_FLAPS 0
+  .HAS_BRAKES 0
+  .HAS_AIRBRAKES 0
+  .MODEL_WEIGHT 0.878000
+  .WING_SPAN 0.000000
+  .WING_AREA 0.000000
+  .PROPELLER_DIAMETER 10.000000
+  .PROPELLER_PITCH 4.500000
+  .NUM_SERVOS 0
+  .NUM_POWER_SYSTEMS 4
+  .POWER_SYSTEM_TYPE IDS_E_PWS_MOTOR
+  .BATTERY_TYPE IDS_E_BAT_LIPO
+  .BATTERY_VOLTAGE 14.800000
+  .BATTERY_CAPACITY 2.200000
+}
+
+//------------------------------------------------------------------------------
+//------------------------------------------------------------------------------
+.GRAVITY GRAVITY
+{
+  .DESCRIPTION ""
+}
+
+//------------------------------------------------------------------------------
+//------------------------------------------------------------------------------
+.DRAG DRAG
+{
+  .DESCRIPTION ""
+  .POSITION_REL_CM 0.000000 0.000000 0.000000
+  .FRONTAL_DRAG_AREA 0.140000
+  .FRONTAL_DRAG_COEFFICIENT 0.400000
+  .ANGULAR_DAMPING_LIN 0.010000
+  .ANGULAR_DAMPING_SQ 0.003000
+}
+
+//------------------------------------------------------------------------------
+//------------------------------------------------------------------------------
+.RADIO RADIO
+{
+  .DESCRIPTION ""
+}
+
+//------------------------------------------------------------------------------
+//------------------------------------------------------------------------------
+.RADIO_FLIGHT_MODE FlightMode
+{
+  .NAME ""
+  .GRAPHIC_STYLE IDS_E_FMG_UNDEFINED
+  .EXP_AILERON 0.000000
+  .EXP_ELEVATOR 0.000000
+  .EXP_THROTTLE 0.000000
+  .EXP_THROTTLE_CENTRED 0
+  .EXP_RUDDER 50.000000
+  .EXP_CH5 0.000000
+  .EXP_CH6 0.000000
+  .EXP_CH7 0.000000
+  .VIRTUAL_CYCLIC_RING 1
+  .FALCON_ACTIVE 0
+
+  .MIX_DESCRIPTION_1 ""
+  .MIX_ACTIVE_1 0
+  .MIX_CH_SWITCH_1 9
+  .MIX_CH_MASTER_1 1
+  .MIX_CH_SLAVE_1 4
+  .MIX_TRAVEL_UP_1 50.000000
+  .MIX_TRAVEL_DOWN_1 50.000000
+
+  .MIX_DESCRIPTION_2 ""
+  .MIX_ACTIVE_2 0
+  .MIX_CH_SWITCH_2 0
+  .MIX_CH_MASTER_2 1
+  .MIX_CH_SLAVE_2 4
+  .MIX_TRAVEL_UP_2 50.000000
+  .MIX_TRAVEL_DOWN_2 50.000000
+
+  .MIX_DESCRIPTION_3 ""
+  .MIX_ACTIVE_3 0
+  .MIX_CH_SWITCH_3 0
+  .MIX_CH_MASTER_3 1
+  .MIX_CH_SLAVE_3 4
+  .MIX_TRAVEL_UP_3 50.000000
+  .MIX_TRAVEL_DOWN_3 50.000000
+
+  .MIX_DESCRIPTION_4 ""
+  .MIX_ACTIVE_4 0
+  .MIX_CH_SWITCH_4 0
+  .MIX_CH_MASTER_4 1
+  .MIX_CH_SLAVE_4 4
+  .MIX_TRAVEL_UP_4 50.000000
+  .MIX_TRAVEL_DOWN_4 50.000000
+
+  .MIX_DESCRIPTION_5 ""
+  .MIX_ACTIVE_5 0
+  .MIX_CH_SWITCH_5 0
+  .MIX_CH_MASTER_5 1
+  .MIX_CH_SLAVE_5 4
+  .MIX_TRAVEL_UP_5 50.000000
+  .MIX_TRAVEL_DOWN_5 50.000000
+
+  .MIX_DESCRIPTION_6 ""
+  .MIX_ACTIVE_6 0
+  .MIX_CH_SWITCH_6 0
+  .MIX_CH_MASTER_6 1
+  .MIX_CH_SLAVE_6 4
+  .MIX_TRAVEL_UP_6 50.000000
+  .MIX_TRAVEL_DOWN_6 50.000000
+
+  .MIX_DESCRIPTION_7 ""
+  .MIX_ACTIVE_7 0
+  .MIX_CH_SWITCH_7 0
+  .MIX_CH_MASTER_7 1
+  .MIX_CH_SLAVE_7 4
+  .MIX_TRAVEL_UP_7 50.000000
+  .MIX_TRAVEL_DOWN_7 50.000000
+
+  .MIX_DESCRIPTION_8 ""
+  .MIX_ACTIVE_8 0
+  .MIX_CH_SWITCH_8 0
+  .MIX_CH_MASTER_8 1
+  .MIX_CH_SLAVE_8 4
+  .MIX_TRAVEL_UP_8 50.000000
+  .MIX_TRAVEL_DOWN_8 50.000000
+
+  .CURVE_DESCRIPTION_1 "Throttle"
+  .CURVE_ACTIVE_1 0
+  .CURVE_CH_MASTER_1 3
+  .CURVE_CH_SLAVE_1 30
+  .CURVE_POSITION_100_1 1.000000
+  .CURVE_POSITION_50_1 0.000000
+  .CURVE_POSITION_0_1 -0.460000
+  .CURVE_POSITION_m50_1 -0.600000
+  .CURVE_POSITION_m100_1 -1.000000
+
+  .CURVE_DESCRIPTION_2 "Throttle"
+  .CURVE_ACTIVE_2 1
+  .CURVE_CH_MASTER_2 3
+  .CURVE_CH_SLAVE_2 30
+  .CURVE_POSITION_100_2 1.000000
+  .CURVE_POSITION_50_2 0.500000
+  .CURVE_POSITION_0_2 0.000000
+  .CURVE_POSITION_m50_2 -0.500000
+  .CURVE_POSITION_m100_2 -1.000000
+
+  .CURVE_DESCRIPTION_3 ""
+  .CURVE_ACTIVE_3 0
+  .CURVE_CH_MASTER_3 1
+  .CURVE_CH_SLAVE_3 1
+  .CURVE_POSITION_100_3 1.000000
+  .CURVE_POSITION_50_3 0.500000
+  .CURVE_POSITION_0_3 0.000000
+  .CURVE_POSITION_m50_3 -0.500000
+  .CURVE_POSITION_m100_3 -1.000000
+
+  .CURVE_DESCRIPTION_4 ""
+  .CURVE_ACTIVE_4 0
+  .CURVE_CH_MASTER_4 1
+  .CURVE_CH_SLAVE_4 1
+  .CURVE_POSITION_100_4 1.000000
+  .CURVE_POSITION_50_4 0.500000
+  .CURVE_POSITION_0_4 0.000000
+  .CURVE_POSITION_m50_4 -0.500000
+  .CURVE_POSITION_m100_4 -1.000000
+}
+
+//------------------------------------------------------------------------------
+//------------------------------------------------------------------------------
+.RECEIVER RX
+{
+  .DESCRIPTION ""
+  .POSITION 0.000000 0.000000 0.020000
+  .MASS 0.000000
+  .RANGE 2000.000000
+  .CARE_FREE_AVAILABLE 1
+  .CARE_FREE_TEACHABLE 1
+}
+
+//------------------------------------------------------------------------------
+//------------------------------------------------------------------------------
+.FPV FPV
+{
+  .SERVO_SPEED 0.200000
+  .SERVO_STEP_ANGLE 0.000000
+  .STABILISER_TILT_ENABLE 1
+  .STABILISER_ROLL_ENABLE 1
+  .STABILISER_ROLL_ANGLE_LIMIT 30.000000
+
+  .CAMERA_POS_1 0.000000 0.050000 -0.090000
+  .ANGLE_PAN_1 0.000000
+  .ANGLE_TILT_1 40.000000
+  .ANGLE_OFFSET_PAN_1 0.000000
+  .ANGLE_OFFSET_TILT_1 -10.000000
+  .CAM_HFOV_1 35.000000
+  .SWITCH_SELF_HIDE_1 
+  .DOF_PAN_1 
+  .DOF_TILT_1 
+  .DOF_ROLL_1 
+
+  .CAMERA_ENABLED_2 1
+  .CAMERA_POS_2 0.000000 0.000000 0.099000
+  .ANGLE_PAN_2 0.000000
+  .ANGLE_TILT_2 40.000000
+  .ANGLE_OFFSET_PAN_2 0.000000
+  .ANGLE_OFFSET_TILT_2 -10.000000
+  .CAM_HFOV_2 35.000000
+  .SWITCH_SELF_HIDE_2 
+  .DOF_PAN_2 
+  .DOF_TILT_2 
+  .DOF_ROLL_2 
+
+  .CAMERA_ENABLED_3 0
+  .CAMERA_POS_3 0.000000 0.000000 0.099000
+  .ANGLE_PAN_3 0.000000
+  .ANGLE_TILT_3 40.000000
+  .ANGLE_OFFSET_PAN_3 0.000000
+  .ANGLE_OFFSET_TILT_3 -10.000000
+  .CAM_HFOV_3 35.000000
+  .SWITCH_SELF_HIDE_3 
+  .DOF_PAN_3 
+  .DOF_TILT_3 
+  .DOF_ROLL_3 
+}
+
+//------------------------------------------------------------------------------
+//------------------------------------------------------------------------------
+.AUTOPILOT AP_ACCEL_X
+{
+  .DESCRIPTION ""
+  .ENABLE 1
+  .SENSOR IDS_E_SN_ACCEL_X
+  .CHANNEL_IN RX:Ch1-Aileron
+  .CHANNEL_BYPASS 
+  .TARGET_ABS_PROP_CONST 15.000000
+  .TARGET_ABS_OFFSET 0.000000
+  .TARGET_REL_INC_PER_SEC 0.000000
+  .TARGET_REL_DEAD_STICK 0.000000
+  .TARGET_REL_DIFF_TARGET_SENSED 9999.000000
+  .PDI_PROPORTIONAL 0.020000
+  .PDI_DIFFERENTIAL 0.003000
+  .PDI_INTEGRAL 0.050000
+  .PDI_SATURATION_INTEGRAL 0.400000
+  .PDI_SATURATION_OUTPUT 1.000000
+}
+
+//------------------------------------------------------------------------------
+//------------------------------------------------------------------------------
+.AUTOPILOT AP_ACCEL_Y
+{
+  .DESCRIPTION ""
+  .ENABLE 1
+  .SENSOR IDS_E_SN_ACCEL_Y
+  .CHANNEL_IN RX:Ch2-Elevator
+  .CHANNEL_BYPASS 
+  .TARGET_ABS_PROP_CONST 15.000000
+  .TARGET_ABS_OFFSET 0.000000
+  .TARGET_REL_INC_PER_SEC 0.000000
+  .TARGET_REL_DEAD_STICK 0.000000
+  .TARGET_REL_DIFF_TARGET_SENSED 9999.000000
+  .PDI_PROPORTIONAL 0.020000
+  .PDI_DIFFERENTIAL 0.003000
+  .PDI_INTEGRAL 0.050000
+  .PDI_SATURATION_INTEGRAL 0.400000
+  .PDI_SATURATION_OUTPUT 1.000000
+}
+
+//------------------------------------------------------------------------------
+//------------------------------------------------------------------------------
+.AUTOPILOT AP_ALT
+{
+  .DESCRIPTION ""
+  .ENABLE 1
+  .SENSOR IDS_E_SN_ALTITUDE
+  .CHANNEL_IN RX:Ch3-Throttle
+  .CHANNEL_BYPASS RX:Ch30-Mix
+  .TARGET_ABS_PROP_CONST 0.000000
+  .TARGET_ABS_OFFSET 0.000000
+  .TARGET_REL_INC_PER_SEC 10.000000
+  .TARGET_REL_DEAD_STICK 0.000000
+  .TARGET_REL_DIFF_TARGET_SENSED 3.000000
+  .PDI_PROPORTIONAL 0.300000
+  .PDI_DIFFERENTIAL 0.300000
+  .PDI_INTEGRAL 0.200000
+  .PDI_SATURATION_INTEGRAL 0.400000
+  .PDI_SATURATION_OUTPUT 0.900000
+}
+
+//------------------------------------------------------------------------------
+//------------------------------------------------------------------------------
+.GYRO GYRO_HEADING
+{
+  .DESCRIPTION ""
+  .CHANNEL_IN RX:Ch4-Rudder
+  .CHANNEL_IN_TURN_RATE -360.000000
+  .REVERSE_OUT 1
+  .ATHIMUT 0.000000
+  .ELEVATION 90.000000
+  .GYRO_ON_SERVO__SERVO 
+  .GYRO_ON_SERVO__ANGLE_RANGE 0.000000
+  .GAIN 0.500000
+  .HH_ENABLE 0
+  .HH_MAX_ERROR_TARGET_ANG_POS 50.000000
+  .PDI_PROP 0.500000
+  .PDI_DIFF 0.500000
+  .PDI_INTEG 0.000000
+  .PDI_SATURATION_INTEG 0.000000
+}
+
+//------------------------------------------------------------------------------
+//------------------------------------------------------------------------------
+.MULTIROTOR_MIX MIX
+{
+  .DESCRIPTION ""
+  .IDLE_SPEED 0.000000
+  .CHANNEL_AILERON AP_ACCEL_X:OUT
+  .CHANNEL_ELEVATOR AP_ACCEL_Y:OUT
+  .CHANNEL_COLLECTIVE AP_ALT:OUT
+  .CHANNEL_RUDDER GYRO_HEADING:OUT
+
+  .MOTOR_MIX_1 1.000000 -1.000000 0.000000 -1.000000
+  .MOTOR_MIX_2 1.000000 0.000000 -1.000000 1.000000
+  .MOTOR_MIX_3 1.000000 1.000000 0.000000 -1.000000
+  .MOTOR_MIX_4 1.000000 0.000000 1.000000 1.000000
+  .MOTOR_MIX_5 0.000000 0.000000 0.000000 0.000000
+  .MOTOR_MIX_6 0.000000 0.000000 0.000000 0.000000
+  .MOTOR_MIX_7 0.000000 0.000000 0.000000 0.000000
+  .MOTOR_MIX_8 0.000000 0.000000 0.000000 0.000000
+}
+
+//------------------------------------------------------------------------------
+//------------------------------------------------------------------------------
+.SPEED_CONTROLLER SC_1
+{
+  .DESCRIPTION ""
+  .CHANNEL MIX:Motor_1
+  .VOLTAGE_SOURCE BATTERY
+  .BEC_ENABLED 0
+}
+
+//------------------------------------------------------------------------------
+//------------------------------------------------------------------------------
+.SPEED_CONTROLLER SC_2
+{
+  .DESCRIPTION ""
+  .CHANNEL MIX:Motor_2
+  .VOLTAGE_SOURCE BATTERY
+  .BEC_ENABLED 0
+}
+
+//------------------------------------------------------------------------------
+//------------------------------------------------------------------------------
+.SPEED_CONTROLLER SC_3
+{
+  .DESCRIPTION ""
+  .CHANNEL MIX:Motor_3
+  .VOLTAGE_SOURCE BATTERY
+  .BEC_ENABLED 0
+}
+
+//------------------------------------------------------------------------------
+//------------------------------------------------------------------------------
+.SPEED_CONTROLLER SC_4
+{
+  .DESCRIPTION ""
+  .CHANNEL MIX:Motor_4
+  .VOLTAGE_SOURCE BATTERY
+  .BEC_ENABLED 0
+}
+
+//------------------------------------------------------------------------------
+//------------------------------------------------------------------------------
+.MOTOR M_1
+{
+  .DESCRIPTION ""
+  .POSITION 0.000000 0.250000 0.020000
+  .MASS 0.085000
+  .SOUND_FILE Motor-2
+  .NOMINAL_VOLTAGE 14.800000
+  .RPM_NO_LOAD 11248.000000
+  .CURRENT_NO_LOAD 0.500000
+  .CURRENT_MAX_EFFICIENCY 8.000000
+  .CURRENT_STALLED 15.000000
+  .PERCENT_MAX_EFFICIENCY 94.000000
+  .TOKEN_VOLTAGE_SOURCE SC_1
+}
+
+//------------------------------------------------------------------------------
+//------------------------------------------------------------------------------
+.MOTOR M_2
+{
+  .DESCRIPTION ""
+  .POSITION 0.250000 0.000000 0.020000
+  .MASS 0.085000
+  .SOUND_FILE Motor-1
+  .NOMINAL_VOLTAGE 14.800000
+  .RPM_NO_LOAD 11248.000000
+  .CURRENT_NO_LOAD 0.500000
+  .CURRENT_MAX_EFFICIENCY 8.000000
+  .CURRENT_STALLED 15.000000
+  .PERCENT_MAX_EFFICIENCY 94.000000
+  .TOKEN_VOLTAGE_SOURCE SC_2
+}
+
+//------------------------------------------------------------------------------
+//------------------------------------------------------------------------------
+.MOTOR M_3
+{
+  .DESCRIPTION "Roxxy 2827-35"
+  .POSITION 0.000000 -0.250000 0.020000
+  .MASS 0.085000
+  .SOUND_FILE Motor-2
+  .NOMINAL_VOLTAGE 14.800000
+  .RPM_NO_LOAD 11248.000000
+  .CURRENT_NO_LOAD 0.500000
+  .CURRENT_MAX_EFFICIENCY 8.000000
+  .CURRENT_STALLED 15.000000
+  .PERCENT_MAX_EFFICIENCY 94.000000
+  .TOKEN_VOLTAGE_SOURCE SC_3
+}
+
+//------------------------------------------------------------------------------
+//------------------------------------------------------------------------------
+.MOTOR M_4
+{
+  .DESCRIPTION ""
+  .POSITION -0.250000 0.000000 0.020000
+  .MASS 0.085000
+  .SOUND_FILE Motor-1
+  .NOMINAL_VOLTAGE 14.800000
+  .RPM_NO_LOAD 11248.000000
+  .CURRENT_NO_LOAD 0.500000
+  .CURRENT_MAX_EFFICIENCY 8.000000
+  .CURRENT_STALLED 15.000000
+  .PERCENT_MAX_EFFICIENCY 94.000000
+  .TOKEN_VOLTAGE_SOURCE SC_4
+}
+
+//------------------------------------------------------------------------------
+//------------------------------------------------------------------------------
+.PROP PROP_1
+{
+  .DESCRIPTION ""
+  .MASS 0.011000
+  .UNBREAKABLE 1
+  .POSITION 0.000000 0.250000 0.048000
+  .HEADING 0.000000
+  .PITCH 90.000000
+  .CLOCKWISE 0
+  .AIRFOIL Flat
+  .NUMBER_OF_BLADES 2
+  .DIAMETER 10.000000
+  .BLADE_PITCH 4.500000
+  .CHORD_TO_DIAMETER_RATIO 0.075000
+  .TOKEN_MEC_SOURCE M_1
+  .GROUND_EFFECT_ENABLE 1.000000
+  .GYRO_EFFECT_SCALE 0.200000
+  .TORQUE_SCALE 1.000000
+  .REFLOW__VEL_FOR_ZERO_REFLOW 0.660000
+  .REFLOW__REFLOW_FACTOR 0.200000
+  .REFLOW__REFLOW_TURBULENCE 0.200000
+  .VAR_PITCH_SERVO 
+  .VAR_PITCH_ANGLE_MAX 0.000000
+  .GRAPHICS_ENABLED 0
+  .COLOR 1.000000 0.000000 0.000000
+  .SEIZE_UP_ENGINE_WHEN_CRASHED 0
+  .TOKEN_COLLISION_POINT_1 CP_PROP_1
+  .TOKEN_COLLISION_POINT_2 
+  .DOF M1-DOF
+  .NODE_BLADES "M1-Slow"
+  .NODE_BLADES_BROKEN ""
+  .NODE_DISK "M1-Fast"
+  .COL_SEQ_PERIOD 4
+  .COL_SEQ_PHASE 0
+}
+
+//------------------------------------------------------------------------------
+//------------------------------------------------------------------------------
+.PROP PROP_2
+{
+  .DESCRIPTION ""
+  .MASS 0.011000
+  .UNBREAKABLE 1
+  .POSITION 0.250000 0.000000 0.048000
+  .HEADING 0.000000
+  .PITCH 90.000000
+  .CLOCKWISE 1
+  .AIRFOIL Flat
+  .NUMBER_OF_BLADES 2
+  .DIAMETER 10.000000
+  .BLADE_PITCH 4.500000
+  .CHORD_TO_DIAMETER_RATIO 0.075000
+  .TOKEN_MEC_SOURCE M_2
+  .GROUND_EFFECT_ENABLE 1.000000
+  .GYRO_EFFECT_SCALE 0.200000
+  .TORQUE_SCALE 1.000000
+  .REFLOW__VEL_FOR_ZERO_REFLOW 0.660000
+  .REFLOW__REFLOW_FACTOR 0.200000
+  .REFLOW__REFLOW_TURBULENCE 0.200000
+  .VAR_PITCH_SERVO 
+  .VAR_PITCH_ANGLE_MAX 0.000000
+  .GRAPHICS_ENABLED 0
+  .COLOR 1.000000 0.000000 0.000000
+  .SEIZE_UP_ENGINE_WHEN_CRASHED 0
+  .TOKEN_COLLISION_POINT_1 CP_PROP_2
+  .TOKEN_COLLISION_POINT_2 
+  .DOF M2-DOF
+  .NODE_BLADES "M2-Slow"
+  .NODE_BLADES_BROKEN ""
+  .NODE_DISK "M2-Fast"
+  .COL_SEQ_PERIOD 4
+  .COL_SEQ_PHASE 1
+}
+
+//------------------------------------------------------------------------------
+//------------------------------------------------------------------------------
+.PROP PROP_3
+{
+  .DESCRIPTION ""
+  .MASS 0.011000
+  .UNBREAKABLE 1
+  .POSITION 0.000000 -0.250000 0.048000
+  .HEADING 0.000000
+  .PITCH 90.000000
+  .CLOCKWISE 0
+  .AIRFOIL Flat
+  .NUMBER_OF_BLADES 2
+  .DIAMETER 10.000000
+  .BLADE_PITCH 4.500000
+  .CHORD_TO_DIAMETER_RATIO 0.075000
+  .TOKEN_MEC_SOURCE M_3
+  .GROUND_EFFECT_ENABLE 1.000000
+  .GYRO_EFFECT_SCALE 0.200000
+  .TORQUE_SCALE 1.000000
+  .REFLOW__VEL_FOR_ZERO_REFLOW 0.660000
+  .REFLOW__REFLOW_FACTOR 0.200000
+  .REFLOW__REFLOW_TURBULENCE 0.200000
+  .VAR_PITCH_SERVO 
+  .VAR_PITCH_ANGLE_MAX 0.000000
+  .GRAPHICS_ENABLED 0
+  .COLOR 1.000000 0.000000 0.000000
+  .SEIZE_UP_ENGINE_WHEN_CRASHED 0
+  .TOKEN_COLLISION_POINT_1 CP_PROP_3
+  .TOKEN_COLLISION_POINT_2 
+  .DOF M3-DOF
+  .NODE_BLADES "M3-Slow"
+  .NODE_BLADES_BROKEN ""
+  .NODE_DISK "M3-Fast"
+  .COL_SEQ_PERIOD 4
+  .COL_SEQ_PHASE 2
+}
+
+//------------------------------------------------------------------------------
+//------------------------------------------------------------------------------
+.PROP PROP_4
+{
+  .DESCRIPTION ""
+  .MASS 0.011000
+  .UNBREAKABLE 1
+  .POSITION -0.250000 0.000000 0.048000
+  .HEADING 0.000000
+  .PITCH 90.000000
+  .CLOCKWISE 1
+  .AIRFOIL Flat
+  .NUMBER_OF_BLADES 2
+  .DIAMETER 10.000000
+  .BLADE_PITCH 4.500000
+  .CHORD_TO_DIAMETER_RATIO 0.075000
+  .TOKEN_MEC_SOURCE M_4
+  .GROUND_EFFECT_ENABLE 1.000000
+  .GYRO_EFFECT_SCALE 0.200000
+  .TORQUE_SCALE 1.000000
+  .REFLOW__VEL_FOR_ZERO_REFLOW 0.660000
+  .REFLOW__REFLOW_FACTOR 0.200000
+  .REFLOW__REFLOW_TURBULENCE 0.200000
+  .VAR_PITCH_SERVO 
+  .VAR_PITCH_ANGLE_MAX 0.000000
+  .GRAPHICS_ENABLED 0
+  .COLOR 1.000000 0.000000 0.000000
+  .SEIZE_UP_ENGINE_WHEN_CRASHED 0
+  .TOKEN_COLLISION_POINT_1 CP_PROP_4
+  .TOKEN_COLLISION_POINT_2 
+  .DOF M4-DOF
+  .NODE_BLADES "M4-Slow"
+  .NODE_BLADES_BROKEN ""
+  .NODE_DISK "M4-Fast"
+  .COL_SEQ_PERIOD 4
+  .COL_SEQ_PHASE 3
+}
+
+//------------------------------------------------------------------------------
+//------------------------------------------------------------------------------
+.COLLISION_POINT CP_LEG_FR
+{
+  .POSITION 0.077000 0.077000 -0.131000
+  .TERRAIN_COL 1
+  .OBJECT_COL 1
+  .INDICATE_UPSIDE_DOWN 0
+  .IS_DAMAGE_POINT 0
+  .SPRINGINESS 1000.000000
+  .DAMPING_LIN 2.000000
+  .FRICTION_SPRINGINESS 40.000000
+  .FRICTION_DAMPING_LIN 1.000000
+  .FRICTION_DAMPING_SQ 1.000000
+  .FRICTION_STATIC_LIMIT_COEFT 0.400000
+  .COL_SEQ_PERIOD 0
+  .COL_SEQ_PHASE 0
+}
+
+//------------------------------------------------------------------------------
+//------------------------------------------------------------------------------
+.COLLISION_POINT CP_LEG_FL
+{
+  .POSITION -0.077000 0.077000 -0.131000
+  .TERRAIN_COL 1
+  .OBJECT_COL 1
+  .INDICATE_UPSIDE_DOWN 0
+  .IS_DAMAGE_POINT 0
+  .SPRINGINESS 1000.000000
+  .DAMPING_LIN 2.000000
+  .FRICTION_SPRINGINESS 40.000000
+  .FRICTION_DAMPING_LIN 1.000000
+  .FRICTION_DAMPING_SQ 1.000000
+  .FRICTION_STATIC_LIMIT_COEFT 0.400000
+  .COL_SEQ_PERIOD 0
+  .COL_SEQ_PHASE 0
+}
+
+//------------------------------------------------------------------------------
+//------------------------------------------------------------------------------
+.COLLISION_POINT CP_LEG_BL
+{
+  .POSITION -0.077000 -0.077000 -0.131000
+  .TERRAIN_COL 1
+  .OBJECT_COL 1
+  .INDICATE_UPSIDE_DOWN 0
+  .IS_DAMAGE_POINT 0
+  .SPRINGINESS 1000.000000
+  .DAMPING_LIN 2.000000
+  .FRICTION_SPRINGINESS 40.000000
+  .FRICTION_DAMPING_LIN 1.000000
+  .FRICTION_DAMPING_SQ 1.000000
+  .FRICTION_STATIC_LIMIT_COEFT 0.400000
+  .COL_SEQ_PERIOD 0
+  .COL_SEQ_PHASE 0
+}
+
+//------------------------------------------------------------------------------
+//------------------------------------------------------------------------------
+.COLLISION_POINT CP_LEG_BR
+{
+  .POSITION 0.077000 -0.077000 -0.131000
+  .TERRAIN_COL 1
+  .OBJECT_COL 1
+  .INDICATE_UPSIDE_DOWN 0
+  .IS_DAMAGE_POINT 0
+  .SPRINGINESS 1000.000000
+  .DAMPING_LIN 2.000000
+  .FRICTION_SPRINGINESS 40.000000
+  .FRICTION_DAMPING_LIN 1.000000
+  .FRICTION_DAMPING_SQ 1.000000
+  .FRICTION_STATIC_LIMIT_COEFT 0.400000
+  .COL_SEQ_PERIOD 0
+  .COL_SEQ_PHASE 0
+}
+
+//------------------------------------------------------------------------------
+//------------------------------------------------------------------------------
+.COLLISION_POINT CP_PROP_1
+{
+  .POSITION 0.000000 0.400000 0.050000
+  .TERRAIN_COL 1
+  .OBJECT_COL 1
+  .INDICATE_UPSIDE_DOWN 0
+  .IS_DAMAGE_POINT 1
+  .SPRINGINESS 0.000000
+  .DAMPING_LIN 0.000000
+  .FRICTION_SPRINGINESS 100.000000
+  .FRICTION_DAMPING_LIN 20.000000
+  .FRICTION_DAMPING_SQ 20.000000
+  .FRICTION_STATIC_LIMIT_COEFT 1.100000
+  .COL_SEQ_PERIOD 4
+  .COL_SEQ_PHASE 0
+}
+
+//------------------------------------------------------------------------------
+//------------------------------------------------------------------------------
+.COLLISION_POINT CP_PROP_2
+{
+  .POSITION 0.400000 0.000000 0.050000
+  .TERRAIN_COL 1
+  .OBJECT_COL 1
+  .INDICATE_UPSIDE_DOWN 0
+  .IS_DAMAGE_POINT 1
+  .SPRINGINESS 0.000000
+  .DAMPING_LIN 0.000000
+  .FRICTION_SPRINGINESS 100.000000
+  .FRICTION_DAMPING_LIN 20.000000
+  .FRICTION_DAMPING_SQ 20.000000
+  .FRICTION_STATIC_LIMIT_COEFT 1.100000
+  .COL_SEQ_PERIOD 4
+  .COL_SEQ_PHASE 1
+}
+
+//------------------------------------------------------------------------------
+//------------------------------------------------------------------------------
+.COLLISION_POINT CP_PROP_3
+{
+  .POSITION 0.000000 -0.400000 0.050000
+  .TERRAIN_COL 1
+  .OBJECT_COL 1
+  .INDICATE_UPSIDE_DOWN 0
+  .IS_DAMAGE_POINT 1
+  .SPRINGINESS 0.000000
+  .DAMPING_LIN 0.000000
+  .FRICTION_SPRINGINESS 100.000000
+  .FRICTION_DAMPING_LIN 20.000000
+  .FRICTION_DAMPING_SQ 20.000000
+  .FRICTION_STATIC_LIMIT_COEFT 1.100000
+  .COL_SEQ_PERIOD 4
+  .COL_SEQ_PHASE 2
+}
+
+//------------------------------------------------------------------------------
+//------------------------------------------------------------------------------
+.COLLISION_POINT CP_PROP_4
+{
+  .POSITION -0.400000 0.000000 0.050000
+  .TERRAIN_COL 1
+  .OBJECT_COL 1
+  .INDICATE_UPSIDE_DOWN 0
+  .IS_DAMAGE_POINT 1
+  .SPRINGINESS 0.000000
+  .DAMPING_LIN 0.000000
+  .FRICTION_SPRINGINESS 100.000000
+  .FRICTION_DAMPING_LIN 20.000000
+  .FRICTION_DAMPING_SQ 20.000000
+  .FRICTION_STATIC_LIMIT_COEFT 1.100000
+  .COL_SEQ_PERIOD 4
+  .COL_SEQ_PHASE 3
+}
+
+//------------------------------------------------------------------------------
+//------------------------------------------------------------------------------
+.COLLISION_POINT CP_TOP
+{
+  .POSITION 0.000000 0.000000 0.130000
+  .TERRAIN_COL 1
+  .OBJECT_COL 1
+  .INDICATE_UPSIDE_DOWN 1
+  .IS_DAMAGE_POINT 1
+  .SPRINGINESS 0.000000
+  .DAMPING_LIN 0.000000
+  .FRICTION_SPRINGINESS 100.000000
+  .FRICTION_DAMPING_LIN 20.000000
+  .FRICTION_DAMPING_SQ 20.000000
+  .FRICTION_STATIC_LIMIT_COEFT 1.100000
+  .COL_SEQ_PERIOD 0
+  .COL_SEQ_PHASE 0
+}
+
+//------------------------------------------------------------------------------
+//------------------------------------------------------------------------------
+.MASS MASS26
+{
+  .DESCRIPTION ""
+  .MASS 0.300000
+  .POSITION 0.000000 0.000000 0.030000
+  .SIZE 0.200000 0.200000 0.100000
+}
+
+//------------------------------------------------------------------------------
+//------------------------------------------------------------------------------
+.BATTERY BATTERY
+{
+  .DESCRIPTION ""
+  .POSITION 0.000000 0.000000 -0.030000
+  .MASS 0.238000
+  .TYPE IDS_E_BAT_LIPO
+  .NUM_CELLS 4
+  .CAPACITY 2.200000
+  .MAX_DISCHARGE_C 25
+}
