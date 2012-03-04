@@ -20,12 +20,12 @@ http://ardupilotdev.googlecode.com/svn/images/AeroSIM_sim.jpg
 
 == Installation ==
 
- # Unzip the archive !ArduCopter_HIL_setups.zip
- # copy the folder \APMHill in the AeroSiM folder c:\Program Files (x86)\Plugin\
+ * Unzip the archive !ArduCopter_HIL_setups.zip
+ * copy the folder \APMHill in the AeroSiM folder c:\Program Files (x86)\Plugin\
 http://ardupilotdev.googlecode.com/svn/images/AeroSIM_plugin.jpg
- # copy the quadcopter model MD4.mdl in the AeroSiM folder c:\Program Files (x86)\Data\
+ * copy the quadcopter model MD4.mdl in the AeroSiM folder c:\Program Files (x86)\Data\
 http://ardupilotdev.googlecode.com/svn/images/AeroSIM_model1.jpg
- # check that in the firmware the parameters of the APM_Config.h are set:
+ * check that in the firmware the parameters of the APM_Config.h are set:
 
 {{{
   #define HIL_MODE 	HIL_MODE_ATTITUDE
@@ -33,7 +33,7 @@ http://ardupilotdev.googlecode.com/svn/images/AeroSIM_model1.jpg
 }}}
 http://ardupilotdev.googlecode.com/svn/images/AeroSIM_uploadl.jpg
 
-4) upload the AC241xp2_MD4_HIL.param (found in the !ArduCopter_HIL_setups\!AeroSim_Hill folder ) with the mission planner to your APM board.
+ * upload the AC241xp2_MD4_HIL.param (found in the !ArduCopter_HIL_setups\!AeroSim_Hill folder ) with the mission planner to your APM board.
 http://ardupilotdev.googlecode.com/svn/images/MD4_PID.jpg
 
 == Testing ==
