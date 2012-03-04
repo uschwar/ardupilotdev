@@ -23,6 +23,8 @@ http://ardupilotdev.googlecode.com/svn/images/AeroSIM_sim.jpg
  # Unzip the archive !ArduCopter_HIL_setups.zip
  # copy the folder \APMHill in the AeroSiM folder c:\Program Files (x86)\Plugin\
 http://ardupilotdev.googlecode.com/svn/images/AeroSIM_plugin.jpg
+ # copy the quadcopter model MD4.mdl in the AeroSiM folder c:\Program Files (x86)\Data\
+http://ardupilotdev.googlecode.com/svn/images/AeroSIM_model1.jpg
  # check that in the firmware the parameters of the APM_Config.h are set:
 
 {{{
