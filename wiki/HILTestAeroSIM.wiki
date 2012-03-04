@@ -47,6 +47,7 @@ http://ardupilotdev.googlecode.com/svn/images/AeroSIM_setup.jpg
 http://ardupilotdev.googlecode.com/svn/images/AeroSIM_calib.jpg
  * click on the Tab *Mode*, set the MODE
 http://ardupilotdev.googlecode.com/svn/images/AeroSIM_Mode.jpg
+ * click again on the Tab *simulation*
  * click on *Start simulation*
  * launch the *AeroSIM-RC* then select *Plugin* and *APMHil*
 http://ardupilotdev.googlecode.com/svn/images/AeroSIM_plugin_select.jpg
@@ -55,7 +56,8 @@ http://ardupilotdev.googlecode.com/svn/images/AeroSIM_model.jpg
 
 Enjoy flying with AeroSIM in HIL mode
 
-You will find a video of this simple mission at: [http://vimeo.com/35097058]
+You will find some videos of HIL simulations at: [http://vimeo.com/35097058]
+[http://vimeo.com/37243083]
 
 More infos at:
 [http://diydrones.com/profile/JeanLouisNaudin]
