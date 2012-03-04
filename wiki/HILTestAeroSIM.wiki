@@ -15,8 +15,8 @@ http://ardupilotdev.googlecode.com/svn/images/AeroSIM_sim.jpg
  * the firmware [http://ardupilotdev.googlecode.com/files/ArduCopter_241xp2_DCM.zip ArduCopter v2.4.1xp2 DCM] or more installed on the APM,
  * the [http://code.google.com/p/ardupilot-mega/downloads/list Mission Planner v1.1.48] (or more) installed on the PC, you may download the latest version in the [http://code.google.com/p/ardupilot-mega/source/browse/ Ardupilot-mega official repository] with GIT
  * the [http://ardupilotdev.googlecode.com/files/ArduCopter_HIL_setups.zip HIL setups and param files] for the HIL simulation
- * You will find in the ArduCopter_HIL_setups.zip, the !AeroSim plug-in (plugin_AeroSIMRC.dll) in the AeroSIM_HIL/APMHil/ folder.
- * You will find also in the ArduCopter_HIL_setups.zip, the quadcopter model MD4.mdl AeroSIM_HIL/ folder.
+ * You will find in the [http://ardupilotdev.googlecode.com/files/ArduCopter_HIL_setups.zip  ArduCopter_HIL_setups.zip], , the !AeroSim plug-in (plugin_AeroSIMRC.dll) in the AeroSIM_HIL/APMHil/ folder.
+ * You will find also in the [http://ardupilotdev.googlecode.com/files/ArduCopter_HIL_setups.zip  ArduCopter_HIL_setups.zip], the quadcopter model MD4.mdl AeroSIM_HIL/ folder.
 
 == Installation ==
 
