@@ -25,7 +25,7 @@ http://ardupilotdev.googlecode.com/svn/images/AeroSIM_sim.jpg
 http://ardupilotdev.googlecode.com/svn/images/AeroSIM_plugin.jpg
  * copy the quadcopter model MD4.mdl in the AeroSiM folder c:\Program Files (x86)\Data\
 http://ardupilotdev.googlecode.com/svn/images/AeroSIM_model1.jpg
- * check that in the firmware the parameters of the APM_Config.h are set:
+ * check that in the firmware the parameters of the APM_Config.h are set, then upload the firmware to the APM:
 
 {{{
   #define HIL_MODE 	HIL_MODE_ATTITUDE
@@ -38,20 +38,22 @@ http://ardupilotdev.googlecode.com/svn/images/MD4_PID.jpg
 
 == Testing ==
 
-http://ardupilotdev.googlecode.com/svn/images/AC22b2xp_AeroSIMRCsetup.jpg
-
  * launch the APM mission planner
  * click on the Tab *simulation*
  * click on *CONNECT* on the top right corner
- * click on the button *!AeroSim*
+ * click on the button *!AeroSim* and set the parameters as below:
+http://ardupilotdev.googlecode.com/svn/images/AeroSIM_setup.jpg
+ * click on the Tab *Configuration*, do the stick calibration
+http://ardupilotdev.googlecode.com/svn/images/AeroSIM_calib.jpg
+ * click on the Tab *Mode*, set the MODE
+http://ardupilotdev.googlecode.com/svn/images/AeroSIM_Mode.jpg
  * click on *Start simulation*
  * launch the *AeroSIM-RC* then select *Plugin* and *APMHil*
- * select the model *Quad-IV* 
- * with the windows !NotePad open the launch script *scriptRTL_ !Land_Test.txt*
- * select all the text and then copy in into the clipboard ctrl-c.
- * on the main windows of the mission planner, click on the button *script* then paste the clipboard ctrl-p and close the window script. Clic to Yes when you see *Run Script*
+http://ardupilotdev.googlecode.com/svn/images/AeroSIM_plugin_select.jpg
+ * select the model *MD4* 
+http://ardupilotdev.googlecode.com/svn/images/AeroSIM_model.jpg
 
-If all is ok, you will see the quadcopter flying in a full autonomous flight on a simple 2 minutes mission...
+Enjoy flying with AeroSIM in HIL mode
 
 You will find a video of this simple mission at: [http://vimeo.com/35097058]
 
